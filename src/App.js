@@ -45,7 +45,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1 className="app-title">&#128466; To Do List</h1>
+      <h1 className="app-title">&#128466; 오늘 할 일</h1>
 
       <div className="app-form">
         <OutlineInput
