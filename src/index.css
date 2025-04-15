@@ -56,38 +56,12 @@ body {
 
 .app-list {
   flex-grow: 1;
-  background-image: url(./components/image/back1.jpeg);
+  background-image: url(./components/image/back.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100vh 100%;
   animation: image 1000s;
   animation-iteration-count: infinite;
-}
-@keyframes image {
-  0% {
-    background-image: url(./components/image/back1.jpeg);
-  }
-  17% {
-    background-image: url(./components/image/back1.jpeg);
-  }
-  34% {
-    background-image: url(./components/image/back2.jpeg);
-  }
-  47% {
-    background-image: url(./components/image/back3.jpeg);
-  }
-  64% {
-    background-image: url(./components/image/back4.jpeg);
-  }
-  77% {
-    background-image: url(./components/image/back5.jpeg);
-  }
-  90% {
-    background-image: url(./components/image/back6.jpeg);
-  }
-  100% {
-    background-image: url(./components/image/back7.jpeg);
-  }
 }
 .app-footer {
   display: flex;
